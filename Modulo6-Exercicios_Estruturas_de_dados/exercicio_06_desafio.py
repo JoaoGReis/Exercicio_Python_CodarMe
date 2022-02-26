@@ -2,6 +2,13 @@
 Esse programa imprime o maior numero da lista.
 """
 
-lista = [1, 8, 7, 5]
+lista = [1, 3, 8, 5]
 
-print(max(lista))
+maior = 0
+
+for numero in lista:
+    if numero > maior:
+        maior = numero
+
+print(maior)
+
